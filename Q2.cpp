@@ -1,3 +1,4 @@
+//Make a class using parameterized constructor 
 #include<iostream>
 using namespace std;
 class Rectangle {
