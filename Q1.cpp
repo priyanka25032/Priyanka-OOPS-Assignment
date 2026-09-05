@@ -1,18 +1,20 @@
 #include<iostream>
 using namespace std;
-class Rectangle {
-    float lenght , breadth;
+class Student {
+    string name;
+    int rollno;
     public:
-    Rectangle (float l, float b) {
-        lenght=l;
-        breadth=b;
+    Student () {
+        name="Laksh";
+        rollno=86;
     }
     void display() {
-        cout<<"Area:"<<lenght*breadth;
+        cout<<"Name:"<<name<<endl;
+        cout<<"Rollno:"<<rollno<<endl;
     }
 };
 int main() {
-    Rectangle s(12,12);
+    Student s;
     s.display();
     return 0;
 }
