@@ -1,3 +1,4 @@
+//Create a class and use default constructor and parameterized constructor
 #include<iostream>
 using namespace std;
 class Box {

@@ -1,3 +1,4 @@
+//Create a class and initilize using parameterized constructor
 #include<iostream>
 using namespace std;
 class Employee {
